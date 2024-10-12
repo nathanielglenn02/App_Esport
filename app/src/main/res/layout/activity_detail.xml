@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_image" />
+
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/detail_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_prize_pool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prizepool"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_teams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teams"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_players"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/players"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_sponsors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sponsor"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_streaming_platforms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/streaming"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/website"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_social_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sosmed"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/history"
+            android:textColor="@color/black"
+            android:paddingTop="8dp" />
+
+        <Button
+            android:id="@+id/action_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"/>
+
+    </LinearLayout>
+</ScrollView>

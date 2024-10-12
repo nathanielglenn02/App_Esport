@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">App_Esport</string>
+    <string name="username">Nathaniel Glenn Hanson</string>
+    <string name="email">a320b4ky3275@bangkit.academy</string>
+    <string name="share">Share</string>
+    <string name="title">Title</string>
+    <string name="desc">Description</string>
+    <string name="date">Date</string>
+    <string name="location">Location</string>
+    <string name="overview">Overview</string>
+    <string name="prizepool">Prize Pool</string>
+    <string name="teams">Teams</string>
+    <string name="players">Players</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="streaming">Streaming Platform</string>
+    <string name="website">Website</string>
+    <string name="sosmed">Sosial Media</string>
+    <string name="schedule">Schedule</string>
+    <string name="history">History</string>
+
+
+</resources>

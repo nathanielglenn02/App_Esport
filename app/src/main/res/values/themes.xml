@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App_Esport" parent="Theme.Material3.DayNight">
+        <!-- Primary branding color -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_color</item> <!-- Warna varian gelap -->
+        <item name="colorOnPrimary">@android:color/white</item> <!-- Warna teks di atas primary color -->
+
+        <!-- Secondary/Accent color -->
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorOnSecondary">@android:color/white</item> <!-- Warna teks di atas warna aksen -->
+    </style>
+
+    <style name="Theme.App_Esport" parent="Base.Theme.App_Esport" />
+</resources>
